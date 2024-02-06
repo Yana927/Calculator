@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/app.css')}}" />
+  </head>
+  <body>
+    <h1 class="testColor">Калькулятор</h1>
+    <form action="/calculate" method="POST">
+      <input
+        type="number"
+        name="num1"
+        class="effect-12"
+        placeholder="Enter first number"
+        required />
+      <input
+        type="number"
+        name="num2"
+        class="effect-12"
+        placeholder="Enter second number"
+        required />
+      <select name="operation" id="mainselection">
+        <option value="add">Addition (+)</option>
+        <option value="subtract">Subtraction (-)</option>
+        <option value="multiply">Multiplication (*)</option>
+        <option value="divide">Division (/)</option>
+      </select>
+      <br />
+      <center>
+        <button type="submit" class="custom-btn btn-2">Calculate</button>
+      </center>
+    </form>
+    <h2>Результат: <bold>{{ result }}</bold></h2>
+  </body>
+</html>

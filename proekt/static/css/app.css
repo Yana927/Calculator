@@ -1,0 +1,74 @@
+h1 {
+  position: relative;
+  text-align: center;
+  color: #4f4e5a;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+h2 {
+  position: relative;
+  text-align: center;
+  color: #201f29;
+  font-size: 40px;
+  font-family: "Cormorant Garamond", serif;
+}
+#mainselection {
+  overflow: hidden;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  -moz-border-radius: 9px 9px 9px 9px;
+  -webkit-border-radius: 9px 9px 9px 9px;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 1px 1px 11px #330033;
+  background: #dbdedb url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll
+    319px center;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: linear-gradient(35deg, rgb(227, 230, 228), rgb(141, 114, 214));
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-2 {
+  background: rgb(96, 9, 240);
+  background: linear-gradient(0deg, rgb(220, 39, 29) 0%, rgb(206, 55, 24) 100%);
+  border: none;
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+.effect-12 {
+  border: 0;
+  padding: 7px 15px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 170px;
+}
